@@ -20,6 +20,7 @@ readRaw('raw.txt', (err, data) => {
     if (err) throw err
     let s = JSON.stringify(data).replace('[[', '[\n  [').replace(']]', ']\n]\n').replace(/],/g, '],\n  ')
     fs.writeFileSync('data.json', s)
+    console.log('done!')
 })
 
 function procRawLine(line) {
