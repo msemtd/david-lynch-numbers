@@ -1,7 +1,7 @@
 const fs = require('fs')
 const util = require('util')
 
-// https://www.youtube.com/watch?v=W-3MP27IU-I&list=PLTPQcjlcvvXFtR0R91Gh5j9Xi8cq0oN3Y
+// https://www.youtube.com/playlist?list=PLTPQcjlcvvXFtR0R91Gh5j9Xi8cq0oN3Y
 
 const usdrx = /^(\d+)\/(\d+)\/(\d+)$/
 /**
